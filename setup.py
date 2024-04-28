@@ -186,7 +186,7 @@ if __name__ == '__main__':
         dependency_links=[
             'https://github.com/open-mmlab/mmdetection/tarball/v1.0rc1/#egg=mmdet-v1.0rc1'
         ],
-        install_requires=install_requires,
+        #install_requires=install_requires,
         ext_modules=[
             make_cython_ext(name='cpu_nms',
                             module='mmskeleton.ops.nms',
